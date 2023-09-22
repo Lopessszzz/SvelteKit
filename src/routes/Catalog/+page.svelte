@@ -18,3 +18,5 @@
 <Cards />
 <hr>
 <Alert />
+
+<Alert type="danger" message="Erro!" />

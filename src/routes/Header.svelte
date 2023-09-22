@@ -12,7 +12,7 @@
           <li class="nav-item">
             <a class="nav-link" href="/catalog">Catálogo</a>
           </li>
-          <li class="nav-item dropdown active">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="https://www.alura.com.br/artigos/svelte-versus-react-quais-diferencas" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Sobre este projeto
             </a>
