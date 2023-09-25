@@ -17,13 +17,17 @@
               Sobre este projeto
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="https://www.youtube.com/">Action</a></li>
-              <li><a class="dropdown-item" href="https://www.youtube.com/">Another action</a></li>
-              <li><a class="dropdown-item" href="https://www.youtube.com/">Something else here</a></li>
+              <li><a class="dropdown-item" href="https://www.google.com/">Action</a></li>
             </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/login"><strong>Login</strong></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto"> 
+          <li class="nav-item">
+            <!-- Aqui vai o link para a página de contatos -->
+            <a class="nav-link btn btn-primary" href="https://www.google.com/">Contato</a>
           </li>
         </ul>
       </div>
