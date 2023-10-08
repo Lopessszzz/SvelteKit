@@ -1,4 +1,5 @@
 <script>
+    // @ts-ignore
     import Header from "../Header.svelte";
     let username = '';
     let password = '';

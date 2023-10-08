@@ -1,0 +1,248 @@
+.botao-sem-hover {
+    background-color: #007bff; 
+    color: #ffffff; 
+    border-radius: 10px;
+}
+
+/* HEADER HEADER HEADER HEADER */
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-top: -10px;
+}
+
+.content-below-header {
+    margin-top: 0px;
+}
+
+/* ICONS ICONS ICONS ICONS */
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .social-icons a {
+    margin: 10px;
+  }
+
+  .social-icons img {
+    width: 50px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: 50px; /* Ajuste o tamanho do ícone conforme necessário */
+  }
+
+/* div div div div*/
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.vertical-divider {
+    width: 1px;
+    height: 120px; 
+    background-color: #333;
+    margin: 10px;
+}
+
+.primary-banner {
+    background-color: #0077B5; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center;
+}
+
+.primary-banner h1 {
+    font-size: 24px; 
+    font-weight: bold; 
+}
+
+.primary-banner p {
+    font-size: 16px; 
+}
+
+.divider {
+    border: none; 
+    border-top: 1px solid #ccc;
+    margin: 20px 0; /* Espaçamento vertical */
+}
+
+.div {
+    border: none;
+    border-top: 2px;
+    margin: 40px;
+}
+
+   /* FAQ FAQ FAQ FAQ */
+
+.centered-faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+
+  .faq {
+    margin-top: 10px;
+  }
+
+  .faq-item {
+    margin-bottom: 30px;
+  }
+
+  .question {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .answer {
+    display: none;
+  }
+
+  .open .answer {
+    display: block;
+  }
+
+  /* Carousel Carousel Carousel Carousel */
+
+  .carousel-image {
+    width: 300px; /* Defina a largura desejada */
+    height: 650px; /* Defina a altura desejada */
+    object-fit: cover; /* Isso garante que a imagem preencha o espaço definido */
+  }
+
+ .custom-caption {
+    background-color: rgba(255, 255, 255, 0.7); /* Cor de fundo com transparência */
+    padding: 10px; /* Espaçamento interno para melhorar a legibilidade */
+    color: #000; /* Cor do texto em preto */
+    border-radius: 10px; /* Arredondar as bordas */
+    max-width: 80%;
+    margin-bottom: 11px;
+  }
+
+  /* HOME HOME HOME HOME */
+
+  body {
+    background-image: url('https://owebsite-cdn.ubtrobot.com/en/uploadfiles/zwimg111.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  .container {
+    height: 100vh;
+  }
+  .center-text {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+  }
+.padding {
+    padding-top: 50px;
+}
+
+/* BANNER BANNER BANNER BANNER */
+
+.primary-banner {
+    background-color: #0077B5;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex; /* Tornar o elemento um contêiner flexível */
+    align-items: center; /* Alinhar verticalmente o conteúdo no centro */
+    justify-content: center; /* Alinhar horizontalmente o conteúdo no centro */
+    flex-direction: column; /* Alinhar o conteúdo verticalmente em uma coluna */
+    min-height: 500px
+}
+
+/* Estilos para telas menores (por exemplo, dispositivos móveis) */
+@media (max-width: 768px) {
+    .primary-banner {
+        font-size: 18px;
+        padding: 10px;
+    }
+}
+
+/* BUTTONS  BUTTONS  BUTTONS  BUTTONS */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px; /* Isso centralizará verticalmente na página inteira */
+}
+
+/* COLUMN COLUMN COLUM COLUMN */
+
+.column-links {
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+
+.column {
+flex: 1;
+text-align: center;
+}
+
+.column h3 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.column a {
+color: #333;
+text-decoration: none;
+display: block;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* FOOTER FOOTER FOOTER FOOTER */
+
+footer {
+    background-color: #fff; 
+    color: #333; 
+    padding: 20px 0; 
+  }
+
+  .footer-content {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  p {
+    margin: 0; 
+  }
+
+  nav {
+    margin-top: 10px; 
+    margin-bottom: 18px;
+  }
+
+  a {
+    color: #333; 
+    margin-right: 10px; 
+    text-decoration: none; 
+  }
+
+  a:hover {
+    text-decoration: underline; 
+  }

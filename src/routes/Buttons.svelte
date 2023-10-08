@@ -1,20 +1,11 @@
-<button class="btn btn-primary">Botão Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
-<div></div>
-<!-- Link buttom -->
+<script>
+  // Importe as classes CSS do Bootstrap conforme necessário
+  import 'bootstrap/dist/css/bootstrap.min.css';
+</script>
 
-<button type="button" class="btn btn-link">Link</button>
-<div></div>
-<!-- group buttom-->
 
-<div class="btn-group" role="group" aria-label="Basic example">
-    <button type="button" class="btn btn-primary">Left</button>
-    <button type="button" class="btn btn-primary">Middle</button>
-    <button type="button" class="btn btn-primary">Right</button>
-  </div>
+<div class="button-container">
+  <button class="btn btn-primary m-2">Comece aqui</button>
+  
+  <button class="btn btn-light m-2">Teste grátis</button>
+</div>

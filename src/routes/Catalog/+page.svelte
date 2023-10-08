@@ -1,4 +1,5 @@
 <script>
+    // @ts-ignore
     import Header from '../Header.svelte';
     import Alert from '../Alerts.svelte';
     import Carousel from '../Carousel.svelte';
